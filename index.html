@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marathon</title>
+</head>
+<body>
+    <h1>Race Registration!</h1>
+        <form action="/tacos/">
+            <label for="Name">First Name</label>
+                <input type="text" id="first" name="firstname">
+            <label for="Name">Last Name</label>
+                <input type="text" id="last" name="firstname">
+            <p>Select a Race:</p>
+            <div>
+                <input type="radio" name="race" id="funrun">
+                    <label for="FunRun">Fun Run 5K</label>
+            </div>
+            <div>
+                <input type="radio" name="race" id="funrun">
+                    <label for="HalfMarathon">Half Marathon</label>
+            </div>
+            <div>
+                <input type="radio" name="race" id="funrun">
+                    <label for="FullMarathon">Full Marathon</label>
+            </div>
+            <div>
+                <label for="Email">Email</label>
+                    <input type="text" name="email" id="email">
+                <label for="Password">Password</label>
+                    <input type="text" name="password" id="password">
+            </div>
+            <div>
+                <label for="division">Select Age Group</label>
+                    <select name="division" id="division">
+                        <option value="kids">Under 18</option>
+                        <option value="ya">18-30</option>
+                        <option value="adults">30-50</option>
+                        <option value="seniors">50+</option>
+                </select>
+            </div>
+            <div>
+                <button>Register!</button>
+            </div>   
+        </form>
+</body>
+</html>
